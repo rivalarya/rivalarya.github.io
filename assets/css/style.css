@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.background-home {
+	overflow: hidden;
+	position: relative;
+	height: 100vh;
+}
+
+nav {
+	width: 208px;
+	margin: 0 auto;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+
+.nav-item:first-child {
+	height: 50px;
+}
+
+.nav-link {
+	margin: 0 20px;
+}
+
+nav ul li img#left {
+	margin-top: 11px;
+	margin-left: 9px;
+}
+
+nav ul li img#right {
+	margin-top: 9px;
+}
+
+.nav-container {
+	background-color: #055DB7;
+	box-shadow: 0px 5px 13px rgba(0, 0, 0, .3);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	z-index: 3;
+	position: relative;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items: center;
+}
+
+.username-container {
+	position: absolute;
+	z-index: 5;
+	top: 215px;
+	left: 160px;
+	color: white;
+}
+
+.username-container .nama {
+	font-size: 60px;
+}
+
+.username-container .deskripsi {
+	font-size: 30px;
+}
+
+.medsos-container {
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: scale(1);
+	transition: 1s;
+}
+
+.medsos img {
+	transform: scale(1);
+	transition: .7s;
+}
+
+.medsos:hover img {
+	transition: .5s;
+	transform: scale(1.4);
+	margin: 0 20px;
+}
+
+.medsos img {
+	box-shadow: 0px 19px 10px rgba(0, 0, 0, .3);
+	border-radius: 21px;
+}
+
+.medsos {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+	background-color: #055DB7;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	padding: 1%;
+	box-shadow: 18px 18px 24px rgba(0, 0, 0, .3);
+}
+
+.medsos a {
+	transition: .5s;
+	transform: scale(1);
+	margin: 0 25px;
+}
+
+.medsos a:hover {
+	transition: .5s;
+	transform: scale(1.3);
+	margin: 0 30px;
+}
+
+/* style page about */
+.username-container-about {
+	position: absolute;
+	z-index: 5;
+	top: 175px;
+	right: 39%;
+	color: white;
+}
+
+.username-container-about .nama {
+	font-size: 90px;
+}
+
+.username-container-about .deskripsi {
+	font-size: 60px;
+}
+
+.medsos-container-about {
+	position: absolute;
+	z-index: 5;
+	width: 50%;
+	top: 550px;
+	left: 130px;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.medsos-item a {
+	margin-top: 20px;
+}
+
+.medsos-item a img {
+	border-radius: 25px;
+	box-shadow: 18px 18px 24px rgba(0, 0, 0, .3);
+}
+
+.medsos-item {
+	transition: width 1s;
+	width: 100px;
+	display: flex;
+	align-items: center;
+}
+
+.medsos-item:hover {
+	transition: width 1s;
+	width: 300px;
+	border-radius: 25px;
+	background-color: aliceblue;
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768.317" height="488" viewBox="0 0 768.317 488">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0904c4"/>
+      <stop offset="0.544" stop-color="#2020ab"/>
+      <stop offset="1" stop-color="#049fcf"/>
+    </linearGradient>
+  </defs>
+  <g id="Intersection_10" data-name="Intersection 10" transform="translate(1455.907)" fill="url(#linear-gradient)">
+    <path d="M -688.0900268554688 487.4998168945313 L -1454.7841796875 487.4998168945313 L -1016.473449707031 0.7062078714370728 L -688.0900268554688 296.3837890625 L -688.0900268554688 487.4998168945313 Z" stroke="none"/>
+    <path d="M -688.5900268554688 486.9998168945313 L -688.5900268554688 296.6062622070313 L -1016.436462402344 1.412207841873169 L -1453.661254882813 486.9998168945313 L -688.5900268554688 486.9998168945313 M -687.5900268554688 487.9998168945313 L -1455.9072265625 487.9998168945313 L -1016.510437011719 8.447265827271622e-06 L -687.5900268554688 296.1611022949219 L -687.5900268554688 487.9998168945313 Z" stroke="none" fill="#707070"/>
+  </g>
+</svg>

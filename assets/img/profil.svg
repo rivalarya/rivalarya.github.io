@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="746" height="738" viewBox="0 0 746 738">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="746" height="738" filterUnits="userSpaceOnUse">
+      <feOffset dx="18" dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="tempat_foto" data-name="tempat foto" transform="translate(-1088 -192)">
+    <g transform="matrix(1, 0, 0, 1, 1088, 192)" filter="url(#Ellipse_1)">
+      <g id="Ellipse_1-2" data-name="Ellipse 1" transform="translate(18 15)" fill="#4d2ef2" stroke="#707070" stroke-width="1">
+        <ellipse cx="337" cy="333" rx="337" ry="333" stroke="none"/>
+        <ellipse cx="337" cy="333" rx="336.5" ry="332.5" fill="none"/>
+      </g>
+    </g>
+    <text id="userfoto" transform="translate(1382 529)" fill="#fff" font-size="41" font-family="Calibri"><tspan x="0" y="0">userfoto</tspan></text>
+  </g>
+</svg>

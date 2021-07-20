@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1407.617" height="1063.937" viewBox="0 0 1407.617 1063.937">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#04c4bf"/>
+      <stop offset="0.824" stop-color="#2020ab"/>
+      <stop offset="1" stop-color="#0434cf"/>
+    </linearGradient>
+    <filter id="Intersection_3" x="0" y="0" width="1407.617" height="1063.937" filterUnits="userSpaceOnUse">
+      <feOffset dx="9" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Intersection_3)">
+    <g id="Intersection_3-2" data-name="Intersection 3" transform="translate(-352.69 -938.44)" fill="url(#linear-gradient)">
+      <path d="M 770.82177734375 1985.166870117188 L 357.6884765625 1599.91357421875 L 357.6884765625 949.4366455078125 L 1736.656127929688 949.4366455078125 L 770.82177734375 1985.166870117188 Z" stroke="none"/>
+      <path d="M 770.797119140625 1984.460083007813 L 1735.506103515625 949.9366455078125 L 358.1884765625 949.9366455078125 L 358.1884765625 1599.696166992188 L 770.797119140625 1984.460083007813 M 770.846435546875 1985.873413085938 L 357.1884765625 1600.130859375 L 357.1884765625 948.9366455078125 L 1737.805908203125 948.9366455078125 L 770.846435546875 1985.873413085938 Z" stroke="none" fill="#707070"/>
+    </g>
+  </g>
+</svg>
