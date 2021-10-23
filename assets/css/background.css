@@ -109,3 +109,51 @@
     border-radius: 50%;
     box-shadow: 18px 21px 24px rgba(0, 0, 0, .3);
 }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    .profil {
+    width: 79%;
+    top: 70px;
+    left: 12vw;
+    }
+
+    .bg1{
+    width: 110%;
+    left: -129px;
+    top: 98px;
+    height: max-content;
+    z-index: -1;
+    transform: rotate(3deg)
+    }
+
+    .bg3 {
+    width: 90%;
+    right: -24px;
+    bottom: -10px;
+    top: unset;
+    }
+
+    .bg2 {
+    width: 107%;
+    top: -15px;
+    left: -3px;
+    height: max-content;
+    z-index: -2;
+    }
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }

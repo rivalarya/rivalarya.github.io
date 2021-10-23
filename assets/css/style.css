@@ -11,7 +11,7 @@
 }
 
 nav {
-	width: 208px;
+	max-width: max(109px,208px);
 	margin: 0 auto;
 }
 
@@ -23,7 +23,6 @@ nav ul li a {
 	list-style: none;
 	text-decoration: none;
 	color: white;
-	font-size: 30px;
 }
 
 .nav-item:first-child {
@@ -32,6 +31,7 @@ nav ul li a {
 
 .nav-link {
 	margin: 0 20px;
+	font-size: min(1.5rem,2rem);
 }
 
 nav ul li img#left {
@@ -106,7 +106,7 @@ nav ul li img#right {
 .medsos {
 	display: flex;
 	justify-content: space-around;
-	width: 30%;
+	max-width: 100%;
 	background-color: #055DB7;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
@@ -176,3 +176,46 @@ nav ul li img#right {
 	border-radius: 25px;
 	background-color: aliceblue;
 }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+
+	.username-container {
+		top: 43vh;
+		left: 0;
+		right: 0;
+		color: white;
+		text-shadow: 0px 6px 11px rgb(0, 0, 0);
+		text-align: center;
+	}
+
+	.username-container .nama {
+		font-size: 3.5rem;
+	}
+
+	.username-container .deskripsi {
+		font-size: 2rem;
+	}
+
+	.medsos-item:hover {
+		transition: width .7s;
+		width: 160px;
+		border-radius: 25px;
+		background-color: aliceblue;
+	}
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
