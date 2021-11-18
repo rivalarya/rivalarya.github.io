@@ -4,17 +4,13 @@
 	box-sizing: border-box;
 }
 
-html {
-	overflow: hidden;
-}
-
 body {
 	position: relative;
 	height: 100vh;
 }
 
 nav {
-	max-width: 208px;
+	max-width: 200px;
 	margin: 0 auto;
 }
 
@@ -64,19 +60,10 @@ nav ul li img#right {
 	color: white;
 }
 
-.username-container-about .nama {
-	font-size: 90px;
-}
-
-.username-container-about .deskripsi {
-	font-size: 60px;
-}
-
 .medsos-container-about {
 	position: absolute;
 	z-index: 5;
 	width: 50%;
-	top: 550px;
 	left: 130px;
 	display: flex;
 	flex-direction: column;
@@ -107,7 +94,7 @@ nav ul li img#right {
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) { 
+@media (min-width: 576px) { 
 
 	.medsos-item:hover {
 		transition: width .7s;
@@ -118,9 +105,17 @@ nav ul li img#right {
  }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 940px) {
+@media (min-width: 768px){
 	nav{
-		max-width:285px;
+		max-width:calc(20vmax + 3rem);
+	}
+	.medsos a{
+		margin:0 6vw;
+
+	}
+	.medsos a:hover {
+		transform: scale(1.5);
+		margin: 0 6vw;
 	}
 }
 

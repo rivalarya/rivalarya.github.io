@@ -6,14 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="assets/css/background.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/about.css">
 </head>
 
 <body>
-    <div id="app">
+    <header>
+        <nav>
+            <div class="nav-container">
+                <ul class="navbar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><img src="assets/img/right.png" alt="Home" id="right"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
         <div class="background-about">
-            <figure><img src="assets/img/contoh.png" class="profil-about"></figure>
+            <figure class="wrap">
+                <img src="assets/img/contoh.png" class="profil-about">
+            </figure>
             <img src="assets/img/bga1.svg" class="bga1">
             <img src="assets/img/bga2.svg" class="bga2">
             <img src="assets/img/bga3.svg" class="bga3">
@@ -23,12 +38,30 @@
             <img src="assets/img/bga6.svg" class="bga7">
 
             <main>
-                <div class="username-container-about">
-                    <article>
+                    <article class="username-container-about">
                         <h1 class="nama">Onoderaa</h1>
                         <h2 class="deskripsi">wangy wangy</h2>
                     </article>
-                </div>
+                <article class="container-pendidikan">
+                    <h1 class="pendidikan">Pendidikan</h1>
+                    <ul>
+                        <li><h3>SDN Bagendit 1</h3></li>
+                        <li><h3>MTS Persis Pasirsalam 192</h3></li>
+                        <li><h3>SMK Darul Mukminin</h3></li>
+                    </ul>
+                </article>
+                <article class="container-skill">
+                    <h1 class="skill">Skill</h1>
+                    <ul>
+                        <li><h3>Html</h3></li>
+                        <li><h3>Css</h3></li>
+                        <li><h3>Jquery</h3></li>
+                        <li><h3>Bootstrap</h3></li>
+                        <li><h3>Git</h3></li>
+                        <li><h3>ReactJS</h3></li>
+                        <li><h3>Codeigniter 3</h3></li>
+                    </ul>
+                </article>
             </main>
             <section class="medsos-container-about">
                 <div class="medsos-item"><a href="#"><img src="assets/img/whatsapp.svg" alt="Whatsapp"></a></div>
@@ -39,8 +72,6 @@
         </div>
     </div>
 
-    <script src="assets/js/vue.js"></script>
-    <script src="assets/js/vue-router.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
