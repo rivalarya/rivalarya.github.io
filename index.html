@@ -5,54 +5,55 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
-	<link rel="stylesheet" href="assets/css/background.css">
+	<link rel="stylesheet" href="assets/css/home.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
-<body">
-	<div id="app">
-		<div class="background-home">
-			<img src="assets/img/1.svg" class="bg1">
-			<img src="assets/img/2.svg" class="bg2">
-			<img src="assets/img/3.svg" class="bg3">
-			<img src="assets/img/contoh.png" class="profil">
+<body>
+	<header>
+		<nav>
+			<div class="nav-container">
+				<ul class="navbar">
+					<li class="nav-item">
+						<a href="#"><img src="assets/img/left.png" id="left" alt="About"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#"><img src="assets/img/right.png" alt="Portfolio" id="right"></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="background-home">
+		<figure>
+			<div class="wrap">
+				<img src="assets/img/contoh.png" class="profil">
+			</div>
+		</figure>
+		<img src="assets/img/1.svg" class="bg1">
+		<img src="assets/img/2.svg" class="bg2">
+		<img src="assets/img/3.svg" class="bg3">
 
-			<header>
-				<nav>
-					<div class="nav-container">
-						<ul class="navbar">
-							<li class="nav-item">
-								<a href="#"><img src="assets/img/left.svg" id="left" alt="About"></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Home</a>
-							</li>
-							<li class="nav-item">
-								<a href="#"><img src="assets/img/right.svg" alt="Portfolio" id="right"></a>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</header>
+		<main>
+			<div class="username-container">
+					<h1 class="nama">Onoderaa</h1>
+					<h3 class="deskripsi">wangy wangy</h3>
+			</div>
+		</main>
 
-			<main>
-				<div class="username-container">
-						<h1 class="nama">Onoderaa</h1>
-						<h3 class="deskripsi">wangy wangy</h3>
+		<footer>
+			<div class="medsos-container">
+				<div class="medsos">
+					<a href=""><img src="assets/img/whatsapp.svg" alt="Whatsapp"></a>
+					<a href=""><img src="assets/img/facebook.svg" alt="Facebook"></a>
+					<a href=""><img src="assets/img/gmail.svg" alt="Gmail" style="border-radius: 12px;"></a>
 				</div>
-			</main>
-
-			<footer>
-				<div class="medsos-container">
-					<div class="medsos">
-						<a href=""><img src="assets/img/whatsapp.svg" alt="Whatsapp"></a>
-						<a href=""><img src="assets/img/facebook.svg" alt="Facebook"></a>
-						<a href=""><img src="assets/img/gmail.svg" alt="Gmail" style="border-radius: 12px;"></a>
-					</div>
-				</div>
-			</footer>
-		</div>
+			</div>
+		</footer>
 	</div>
 
 	<script src="assets/js/vue.js"></script>
