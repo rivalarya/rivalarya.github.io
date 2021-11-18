@@ -118,9 +118,11 @@ nav ul li img#right {
  }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-
- }
+@media (min-width: 768px) and (max-width: 940px) {
+	nav{
+		max-width:285px;
+	}
+}
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 

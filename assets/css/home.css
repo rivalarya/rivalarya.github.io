@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: center;
     transform: scale(1);
-    transition: 1s;
+    transition: .6s;
 }
 
 .medsos img {
@@ -89,9 +89,9 @@
 }
 
 .medsos a {
-    transition: .5s;
+    transition: .4s;
     transform: scale(1.1);
-    margin: 0 25px;
+    margin: 0 30px;
 }
 
 .medsos a:hover {
@@ -142,15 +142,8 @@
         top: 50vh;
         left: 0;
         right: 0;
-        text-shadow: 0px 6px 11px rgb(0, 0, 0);
+        text-shadow: 0px 2px 11px rgb(0, 0, 0);
         text-align: center;
-    }
-
-    .medsos-item:hover {
-        transition: width .7s;
-        width: 160px;
-        border-radius: 25px;
-        background-color: aliceblue;
     }
     .medsos{
         padding:2%;
@@ -158,7 +151,7 @@
 }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width : 850px) {
+@media (min-width: 768px) and (max-width : 950px) {
     /* background */
     .wrap {
         height: 43vh;
@@ -166,23 +159,23 @@
         justify-content: center;
     }
     .profil {
-        width: 44%;
+        width: 48%;
         position: unset;
-        margin: 10% 7% 7%;
+        margin: 16% 7% 7%;
     }
 
     .bg1 {
-        width: 110%;
-        left: -129px;
-        top: 98px;
-        z-index: -1;
-        transform: rotate(3deg)
+       width: 138%;
+       left: -570px;
+      top: 150px;
+       z-index: -1;
+       transform: rotate(1deg);
     }
 
     .bg3 {
         width: 90%;
-        right: 0;
-        bottom: -10px;
+        right: -0;
+        bottom: -188px;
         top: unset;
     }
 
@@ -199,8 +192,15 @@
         top: 50vh;
         left: 0;
         right: 0;
-        text-shadow: 0px 6px 11px rgb(0, 0, 0);
+        text-shadow: 0px 2px 11px rgb(0, 0, 0);
         text-align: center;
+    }
+    .medsos {
+        padding: 2% 4%;
+    }
+    .medsos a{
+        transform:scale(1.4);
+        margin: 0 40px;
     }
 }
 
