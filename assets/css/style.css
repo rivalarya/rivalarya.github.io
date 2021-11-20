@@ -64,7 +64,7 @@ nav ul li img#right {
 	position: absolute;
 	z-index: 5;
 	width: 50%;
-	left: 130px;
+	/* left: 130px; */
 	display: flex;
 	flex-direction: column;
 	width: 25%;
@@ -81,7 +81,6 @@ nav ul li img#right {
 
 .medsos-item {
 	transition: width 1s;
-	width: 100px;
 	display: flex;
 	align-items: center;
 }

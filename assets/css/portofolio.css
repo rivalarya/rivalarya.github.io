@@ -1,0 +1,160 @@
+/* background */
+html {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 1720px;
+    background: linear-gradient(#1768bb, #a5d2ff);
+    overflow-x: hidden;
+    color: white;
+}
+
+.nav-link{
+    margin: 0;
+    margin-right: 32px;
+    margin-left: 17px;
+}
+
+#left{
+    margin-left: 10px;
+}
+
+.bga1,
+.bga2,
+.bga3,
+.bga4,
+.bga5,
+.bga6,
+.bga7 {
+    position: absolute;
+    z-index: -10;
+}
+
+.portofolio {
+    font-size: calc(2vmax + 1.5rem);
+    margin-bottom: 46px;
+}
+
+.container-portofolio>ul {
+    font-size: calc(1.2vmax + .8rem);
+}
+
+.pengalaman {
+    font-size: calc(2vmax + 1.5rem);
+}
+
+.container-pengalaman>ul {
+    font-size: calc(1.2vmax + .8rem);
+}
+
+@media (min-width: 300px) {
+
+    /* background */
+
+    .bga2 {
+        width: 55%;
+        left: 0;
+        top: 0;
+    }
+
+    .bga1 {
+        width: 80%;
+        right: 0px;
+        top: 0;
+    }
+
+    .bga3 {
+        top: 465px;
+        width: 80%;
+        left: 142px;
+    }
+
+    .bga4 {
+        top: 723px;
+        left: 103px;
+        transform: rotate(-1deg);
+        width: 50%;
+    }
+
+    .bga5 {
+        top: 694px;
+        left: 93px;
+    }
+
+    .bga6 {
+        bottom: 0;
+        right: -26px;
+        width: 126%;
+    }
+
+    .bga7 {
+        bottom: 0;
+        right: -41px;
+        width: 149%;
+    }
+
+    /* end */
+
+    .container-portofolio {
+        top: 5vmax;
+        text-shadow: 0px 2px 11px rgb(0, 0, 0);
+        text-align: center;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+
+    .portofolio-item{
+        width: min(80%, 390px);
+        margin: auto;
+        box-shadow: 2px 6px 20px rgba(0, 0, 0, .5),
+        15px 23px 0 #1768bb;
+        margin-bottom: 70px;
+    }
+
+    .portofolio-title{
+        padding: 15px 8px;
+        text-align: center;
+        font-size: calc(1vmax + 1.2rem);
+    }
+
+    .portofolio-desc{
+        padding: 0 25px 15px;
+        text-align: justify;
+        font-size: calc(1vmax + .6rem);
+    }
+
+    .portofolio-item img{
+        width: 100%;
+        max-height: 250px;
+    }
+    
+    .container-pengalaman {
+        margin-top: 149px;
+        text-shadow: 0px 2px 11px rgb(0, 0, 0);
+        text-align: center;
+        position: relative;
+    }
+    
+    .container-pengalaman>ul {
+        top: 10vmax;
+        text-shadow: 0px 2px 11px rgb(0, 0, 0);
+        text-align: left;
+        position: absolute;
+        left: 54px;
+        width: 80vw;
+    }
+
+    .container-pengalaman>ul li:nth-child(1)::before {
+        content: 'Februari 2021';
+        position: absolute;
+        z-index: 1;
+        top: -17px;
+        color: rgb(17, 14, 186);
+        font-size: 20px;
+        text-shadow: 0 0 3px white;
+    }
+}
