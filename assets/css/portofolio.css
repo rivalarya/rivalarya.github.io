@@ -137,10 +137,11 @@ body {
         text-shadow: 0px 2px 11px rgb(0, 0, 0);
         text-align: center;
         position: relative;
+        height: 43vh;
     }
     
     .container-pengalaman>ul {
-        top: 10vmax;
+        margin-top: 55px;
         text-shadow: 0px 2px 11px rgb(0, 0, 0);
         text-align: left;
         position: absolute;
