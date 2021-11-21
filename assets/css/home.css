@@ -1,5 +1,6 @@
 body{
     overflow: hidden;
+    height: 100vh;
 }
 /* background */
 .bg1,.bg2,.bg3,.profil{
@@ -33,6 +34,7 @@ body{
     border-radius: 50%;
     box-shadow: 18px 21px 24px rgba(0, 0, 0, .3);
     z-index: 8;
+    
 }
 /* end */
 
@@ -205,10 +207,19 @@ body{
         transform:scale(1.4);
         margin: 0 40px;
     }
+
+    .medsos a:hover {
+        transform: scale(1.5);
+        margin: 0 6vw;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .profil{
+        height: 50%;
+    }
+}
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}

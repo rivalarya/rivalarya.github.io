@@ -1,0 +1,17 @@
+[
+    {
+        "judul": "Front-end Web Pemula Dicoding",
+        "deskripsi": "Sertifikat dari Dicoding tingkat Pemula",
+        "img" : "frontendwebpemula.png"
+    },
+    {
+        "judul": "Prinsip Pemrograman SOLID",
+        "deskripsi": "Sertifikat dari Dicoding dari mempelajari prinsip pemrograman SOLID",
+        "img" : "solid.png"
+    },
+    {
+        "judul": "Cek Nomor Penipu",
+        "deskripsi": "Situs yg saya buat sendiri",
+        "img" : "cnp.png"
+    }
+]

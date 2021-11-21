@@ -3,7 +3,6 @@ html{
     overflow-x: hidden;
 }
 body {
-    position: relative;
     width: 100%;
     height: 1720px;
     background: linear-gradient(#1768bb, #a5d2ff);
@@ -40,6 +39,14 @@ nav ul li{
     height: 43vmax;
     display: flex;
     justify-content: center;
+}
+
+.username-container-about {
+    position: absolute;
+    z-index: 5;
+    top: 175px;
+    right: 39%;
+    color: white;
 }
 
 .username-container-about .nama {
@@ -143,7 +150,7 @@ nav ul li{
     }
 
     .container-pendidikan {
-        top: 65vmax;
+        top: 70vmax;
         text-shadow: 0px 2px 11px rgb(0, 0, 0);
         text-align: center;
         position: absolute;

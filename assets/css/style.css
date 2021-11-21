@@ -6,7 +6,6 @@
 
 body {
 	position: relative;
-	height: 100vh;
 }
 
 nav {
@@ -51,70 +50,13 @@ nav ul li img#right {
 	height: 50px;
 }
 
-/* style page about */
-.username-container-about {
-	position: absolute;
-	z-index: 5;
-	top: 175px;
-	right: 39%;
-	color: white;
-}
-
-.medsos-container-about {
-	position: absolute;
-	z-index: 5;
-	width: 50%;
-	/* left: 130px; */
-	display: flex;
-	flex-direction: column;
-	width: 25%;
-}
-
-.medsos-item a {
-	margin-top: 20px;
-}
-
-.medsos-item a img {
-	border-radius: 25px;
-	box-shadow: 18px 18px 24px rgba(0, 0, 0, .3);
-}
-
-.medsos-item {
-	transition: width 1s;
-	display: flex;
-	align-items: center;
-}
-
-.medsos-item:hover {
-	transition: width 1s;
-	width: 300px;
-	border-radius: 25px;
-	background-color: aliceblue;
-}
-
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-
-	.medsos-item:hover {
-		transition: width .7s;
-		width: 160px;
-		border-radius: 25px;
-		background-color: aliceblue;
-	}
- }
+@media (min-width: 576px) { }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px){
 	nav{
 		max-width:calc(20vmax + 3rem);
-	}
-	.medsos a{
-		margin:0 6vw;
-
-	}
-	.medsos a:hover {
-		transform: scale(1.5);
-		margin: 0 6vw;
 	}
 }
 
