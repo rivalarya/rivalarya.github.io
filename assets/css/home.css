@@ -37,6 +37,9 @@ body{
     
 }
 /* end */
+main {
+    position: relative;
+}
 
 .username-container {
     position: absolute;
@@ -44,6 +47,7 @@ body{
     top: 215px;
     left: 160px;
     color: white;
+    text-shadow: 0px 2px 11px rgb(0, 0, 0);
 }
 
 .username-container .nama {
@@ -109,14 +113,15 @@ body{
 @media (max-width: 576px) {
     /* background */
     .wrap{
-        height: 43vh;
+        margin-top: 40px;
         display: flex;
         justify-content: center;
     }
     .profil {
-        width: 74%;
         position: unset;
-        margin: 15% 7% 7%;
+        min-width: 225px;
+        max-width: 45%;
+        max-height: 215px;
     }
 
     .bg1 {
@@ -144,7 +149,7 @@ body{
     /* end */
 
     .username-container {
-        top: 50vh;
+        top: 35px;
         left: 0;
         right: 0;
         text-shadow: 0px 2px 11px rgb(0, 0, 0);
@@ -159,22 +164,23 @@ body{
 @media (min-width: 768px) and (max-width : 950px) {
     /* background */
     .wrap {
-        height: 43vh;
+        margin-top: 70px;
         display: flex;
         justify-content: center;
     }
     .profil {
-        width: 48%;
         position: unset;
-        margin: 16% 7% 7%;
+        min-width: 40%;
+        max-width: 410px;
+        max-height: 300px;
     }
 
     .bg1 {
-       width: 138%;
-       left: -570px;
-      top: 150px;
-       z-index: -1;
-       transform: rotate(1deg);
+        width: 138%;
+        left: -570px;
+        top: 150px;
+        z-index: -1;
+        transform: rotate(1deg);
     }
 
     .bg3 {
@@ -194,10 +200,9 @@ body{
 
     /* end */
     .username-container {
-        top: 50vh;
+        top: 54px;
         left: 0;
         right: 0;
-        text-shadow: 0px 2px 11px rgb(0, 0, 0);
         text-align: center;
     }
     .medsos {
