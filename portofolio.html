@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Portofolio</title>
+
+    <link rel="stylesheet" href="assets/css/splide.min.css">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/portofolio.css">
+
 </head>
 
 <body>
@@ -37,7 +41,13 @@
         <article class="container-portofolio">
             <h1 class="portofolio">Portofolio</h1>
             <div class="row">
-                
+                <div class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+
+                        </ul>
+                    </div>
+                </div>
             </div>
         </article>
         <article class="container-pengalaman">
@@ -51,6 +61,38 @@
     </main>
 
     <script async src="assets/js/fslightbox.js"></script>
-    <script async src="assets/js/script.js"></script>
+    <script async src="assets/js/splide.min.js"></script>
+    <script defer src="assets/js/splide-extension-auto-scroll.min.js"></script>
+
+    <script defer src="assets/js/script.js"></script>
+    <script defer>
+        document.addEventListener( 'DOMContentLoaded', function() {
+
+            setTimeout(() => {
+                new Splide( '.splide', {
+                type : 'loop',
+                focus : 'center',
+                rewind: true,
+                perPage: 1,
+                padding: '13%',
+                width: '85vw',
+                fixedWidth: '430px',
+                gap : '7em',
+                breakpoints: {
+                906: {
+                    fixedWidth: '310px',
+                    },
+                },
+                autoScroll: {
+                    speed: 1,
+                },
+                } ).mount( window.splide.Extensions );
+                
+            }, 1500);
+            
+
+        } );
+
+    </script>
 </body>
 </html>

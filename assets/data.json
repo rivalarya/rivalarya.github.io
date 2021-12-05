@@ -1,17 +1,26 @@
 [
     {
         "judul": "Front-end Web Pemula Dicoding",
+        "link" : "https://dicoding.com/certificates/JLX13KVLJP72",
         "deskripsi": "Sertifikat dari Dicoding tingkat Pemula",
         "img" : "frontendwebpemula.png"
     },
     {
         "judul": "Prinsip Pemrograman SOLID",
+        "link" : "https://dicoding.com/certificates/07Z6LOKV2PQR",
         "deskripsi": "Sertifikat dari Dicoding dari mempelajari prinsip pemrograman SOLID",
         "img" : "solid.png"
     },
     {
         "judul": "Cek Nomor Penipu",
+        "link" : "http://ceknomorpenipu.rf.gd",
         "deskripsi": "Situs yg saya buat sendiri",
         "img" : "cnp.png"
+    },
+    {
+        "judul": "Image Compresser",
+        "link" : "https://image-compress-cf696.web.app",
+        "deskripsi": "Situs yg saya buat sendiri. Tujuannya untuk memperkecil ukuran byte sebuah gambar",
+        "img" : "ic.png"
     }
 ]

@@ -49,6 +49,18 @@ body {
     font-size: calc(1.2vmax + .8rem);
 }
 
+.splide{
+    margin: auto;
+}
+
+.splide__slide{
+    margin: auto;
+}
+
+.splide__track{
+    min-height: 419px;
+}
+
 @media (min-width: 300px) {
 
     /* background */
@@ -112,12 +124,19 @@ body {
         box-shadow: 2px 6px 20px rgba(0, 0, 0, .5),
         15px 23px 0 #1768bb;
         margin-bottom: 70px;
+        min-height: 375px;
+        border-radius: 5px;
     }
 
     .portofolio-title{
         padding: 15px 8px;
         text-align: center;
         font-size: calc(1vmax + 1.2rem);
+        color:white;
+    }
+
+    .portofolio-title:hover{
+        color:#77a2f2;
     }
 
     .portofolio-desc{

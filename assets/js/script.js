@@ -1,4 +1,4 @@
-const row = document.querySelector('.row')
+const row = document.querySelector('.splide__list')
 
 if (row != null) {
     const ajax = new XMLHttpRequest()
@@ -11,7 +11,7 @@ if (row != null) {
                 //tag div dengan class portofolio-item
                 const div = document.createElement("DIV");
                 const kelasDiv = document.createAttribute("class");
-                kelasDiv.value = "portofolio-item";
+                kelasDiv.value = "portofolio-item splide__slide";
                 div.setAttributeNode(kelasDiv)
                 row.appendChild(div)
 
@@ -38,13 +38,18 @@ if (row != null) {
 
 
                 // tag h2 untuk nama portofolio
+                const linkJudul = document.createElement("A");
+                const hrefJudul = document.createAttribute("href");
+                hrefJudul.value = data[i].link;
+                linkJudul.setAttributeNode(hrefJudul);
                 const h2 = document.createElement("H2");
                 const kelasJudul = document.createAttribute("class");
-                const judul = document.createTextNode(`${data[i].judul}.`);
-                h2.appendChild(judul);
+                const judul = document.createTextNode(`${data[i].judul}`);
+                linkJudul.appendChild(h2); //masukan href ke h2
+                h2.appendChild(judul); //masukan judul ke h2
                 kelasJudul.value = "portofolio-title";
                 h2.setAttributeNode(kelasJudul)
-                div.appendChild(h2) //kemudian masukan tag h2 ke tag div utama
+                div.appendChild(linkJudul) //kemudian masukan tag h2 ke tag div utama
 
                 // tag div dengan class portofolio - desc
                 const divDesc = document.createElement("DIV");

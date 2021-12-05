@@ -77,13 +77,14 @@ main {
 
 .medsos:hover img {
     transition: .4s;
-    transform: scale(1.4);
+    transform: scale(1.1);
     margin: 0 20px;
 }
 
 .medsos img {
     box-shadow: 0px 19px 10px rgba(0, 0, 0, .3);
-    border-radius: 21px;
+    border-radius: 26px;
+    width: 100%;
 }
 
 .medsos {
@@ -223,6 +224,10 @@ main {
 @media (min-width: 992px) {
     .profil{
         height: 50%;
+    }
+
+    .medsos img{
+        width: 42%;
     }
 }
 
