@@ -1,4 +1,0 @@
-hapus titik di tiap judul portofolio
-ganti image sosmed
-tambah link github di portofolio
-ganti image kemampuan ku logona
